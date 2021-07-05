@@ -1,0 +1,7 @@
+.as-split-area:first-of-type {
+	flex: 0 0 700px !important;
+}
+
+.container-body-fluid {
+	max-width:none !important;
+}

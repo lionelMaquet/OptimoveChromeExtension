@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Optimove Templates CSS Modifier",
+  "version": "0.1.0",
+  "description": "Changes templates page css",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://*.optimove.net/#/"]
+  }],
+  "web_accessible_resources": ["styles.css"]
+ 
+}
