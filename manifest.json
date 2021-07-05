@@ -8,7 +8,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["https://*.optimove.net/#/"]
+    "matches": ["https://*.optimove.net/*"]
   }],
   "web_accessible_resources": ["styles.css"]
  
