@@ -1,7 +1,12 @@
-.as-split-area:first-of-type {
+.manage-template-body .as-split-area:first-of-type {
 	flex: 0 0 700px !important;
+}
+
+.manage-target-groups as-split .as-split-area:nth-child(3):not(.as-hidden){
+	flex: 0 0 40vw !important;
 }
 
 .container-body-fluid {
 	max-width:none !important;
 }
+
